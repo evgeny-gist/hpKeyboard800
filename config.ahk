@@ -1,4 +1,4 @@
-; Config for HP Pavilion Wireless Keyboard 800
+;Config for HP Pavilion Wireless Keyboard 800
 #NoEnv
 #KeyHistory 0
 #InstallKeybdHook
@@ -38,10 +38,14 @@ F6::Media_Next
 <#Tab::F10
 
 ;F11
-<^<#F21::F11
+<^<#F21::
+SendInput {F11}
+Return
 
 ;F12
-<#F21::F12
+<#F21::
+SendInput {F12}
+Return
 
 ;Right Control instead of \ under the shift
 SC056::RCtrl
